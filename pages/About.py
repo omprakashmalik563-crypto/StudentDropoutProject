@@ -114,51 +114,34 @@ with col2:
 with col3:
     st.success("🤖 Model: XGBoost")
 
-st.divider()
-
 # ==========================
 # Development Team
 # ==========================
 
 st.subheader("👨‍💻 Development Team")
 
-col1, col2 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 
 with col1:
-
     st.markdown("""
     <div class="dev-card">
-    <h3>Amlan Kumar Biswal</h3>
-    <p>Project Developer</p>
-    </div>
-    """, unsafe_allow_html=True)
-
-    st.markdown("""
-    <div class="dev-card">
-    <h3>Ritesh Rohan</h3>
-    <p>Project Developer</p>
-    </div>
-    """, unsafe_allow_html=True)
-
-    st.markdown("""
-    <div class="dev-card">
-    <h3>Ipshita Mishra</h3>
+    <h3>Om Prakash Malik</h3>
     <p>Project Developer</p>
     </div>
     """, unsafe_allow_html=True)
 
 with col2:
-
     st.markdown("""
     <div class="dev-card">
-    <h3>Rachita Swain</h3>
+    <h3>Adarsh Pattanaik</h3>
     <p>Project Developer</p>
     </div>
     """, unsafe_allow_html=True)
 
+with col3:
     st.markdown("""
     <div class="dev-card">
-    <h3>Priyanshu Priyadarshani Choudhury</h3>
+    <h3>Tapesh Kumar Das</h3>
     <p>Project Developer</p>
     </div>
     """, unsafe_allow_html=True)
