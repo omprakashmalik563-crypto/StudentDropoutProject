@@ -23,12 +23,22 @@ margin-bottom:25px;
 }
 
 .dev-card{
-background:#f8fafc;
+background:#1a1a2e;
 padding:20px;
 border-radius:15px;
 text-align:center;
-box-shadow:0px 2px 8px rgba(0,0,0,0.1);
+box-shadow:0px 2px 8px rgba(0,0,0,0.3);
 margin-bottom:15px;
+color:#ffffff !important;
+border:1px solid rgba(255,255,255,0.1);
+}
+
+.dev-card h3{
+color:#a78bfa !important;
+}
+
+.dev-card p{
+color:#cccccc !important;
 }
 
 .footer{
