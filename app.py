@@ -23,21 +23,40 @@ margin-bottom:25px;
 }
 
 .metric-box{
-background:white;
+background:#1a1a2e;
 padding:25px;
 border-radius:15px;
 text-align:center;
-box-shadow:0px 2px 10px rgba(0,0,0,0.1);
+box-shadow:0px 4px 15px rgba(0,0,0,0.3);
 margin-bottom:10px;
+color:#ffffff !important;
+border:1px solid rgba(255,255,255,0.1);
+}
+
+.metric-box h4{
+color:#a78bfa !important;
+}
+
+.metric-box h1{
+color:#ffffff !important;
+}
+
+.metric-box p{
+color:#cccccc !important;
 }
 
 .footer{
 text-align:center;
 padding:25px;
 border-radius:15px;
-background:#f8fafc;
-color:#555;
+background:#1a1a2e;
+color:#cccccc;
 margin-top:20px;
+border:1px solid rgba(255,255,255,0.1);
+}
+
+.footer h3{
+color:#ffffff;
 }
 
 </style>
